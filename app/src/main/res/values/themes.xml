@@ -1,0 +1,29 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Cacl" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Cacl" parent="Base.Theme.Cacl" />
+    
+    <style name="Button">
+        <item name="android:layout_width">65dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_height">65dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="Layer">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:padding">1dp</item>
+    </style>
+</resources>
